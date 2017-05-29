@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+    <ifc.com.loadingbar.indicators.AVLoadingIndicatorView
+        android:visibility="visible"
+        android:id="@+id/custom_progressbar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:indicatorName="BallPulseIndicator"
+        />
+</RelativeLayout>
